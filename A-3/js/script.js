@@ -16,9 +16,9 @@ $(function() {
     setInterval(slide, 2000)
 
     // 탭 메뉴
-    var i;
-    $ (".tabmenu > li").click (function() {
-        $(".tabmenu > li").removeClass("on")
+    let i;
+    $ (".tabmenu>li").click(function() {
+        $(".tabmenu>li").removeClass("on")
             $(this).addClass("on")
 
             i = $(this).index();
@@ -27,6 +27,7 @@ $(function() {
             $(".tabcon").hide()
             $(".tabcon").eq(i).show();
     })
+
     // 팝업창
     $(".pp").click(function () {
         $(".popup").show();
@@ -41,7 +42,7 @@ $(function() {
         $(this).find(".sub").stop().slideDown();
     })
     $("nav>ul>li").mouseleave(function() {
-        $(".sub").stop().slideup();
+        $(".sub").stop().slideUp();
     })
 
     // 웹 접근성 메뉴

@@ -178,27 +178,27 @@ nav > ul > li > a:focus {
     font-size: 20px;
 }
 
-.con1 .notice-tabcon {
+.con1 .tabcon {
     background-color: #0066ad;
     color: #fff;
     padding: 5px;
     position: absolute;
 }
 
-.notice-tabcon th {
+.notice th {
     text-align: left;
     color: #fff;
 }
 
-.notice-tabcon td {
+.notice td {
     color: #fff;
 }
 
-.notice-tabcon tr {
+.notice tr {
     border-bottom: 1px dashed #fff;
 }
 
-.notice-tabcon a {
+.notice a {
     padding: 5px;
     display: block;
     width: 250px;
@@ -207,11 +207,11 @@ nav > ul > li > a:focus {
     white-space: nowrap;
 }
 
-.gall-tabcon {
+.gall {
     display: none;
 }
 
-.gall-tabcon ul {
+.gall ul {
     text-align: center;
     display: flex;
     gap: 15px;
@@ -219,7 +219,7 @@ nav > ul > li > a:focus {
     align-items: center;
 }
 
-.gall-tabcon ul li {
+.gall ul li {
     width: 120px;
 }
 
