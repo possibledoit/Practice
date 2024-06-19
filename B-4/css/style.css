@@ -252,19 +252,20 @@ nav > ul > li.on > a {
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    padding-top: 60px;
+    padding-top: 70px;
     text-align: center;
     height: 100%;
     background-color: transparent;
 }
 
 .banner div h3 {
+    padding-top: 10px;
     color: #ff0;
     font-size: 24px;
 }
 
 .banner p {
-    height: 60px;
+    height: 40px;
     background-color: #333;
     color: #fff;
     font-size: 11px;
@@ -272,7 +273,7 @@ nav > ul > li.on > a {
 }
 
 footer {
-    display: none;
+    display: flex;
     width: 100%;
     background-color: #333;
     height: 100px;
