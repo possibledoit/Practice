@@ -1,0 +1,312 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+.wrap {
+    width: 1000px; 
+    height: 650px; 
+    display: flex; 
+    position: relative; 
+}
+
+header {
+    width: 200px; 
+    background: #6a5ea6; 
+    padding: 30px 10px;
+}
+
+header h1 {
+    padding-bottom: 30px;
+}
+
+nav {
+    position: relative;
+}
+
+nav > ul > li > a {
+    display: block; 
+    background: #09c75a; 
+    text-align: center; 
+    padding:10px; 
+    font-size: 18px;
+} 
+
+nav > ul > li:hover > a,
+nav > ul > li > a:focus,
+nav > ul > li.on > a {
+    background: #ec775d;
+}
+
+.sub {
+    position: absolute; 
+    top: -30px; 
+    right: -150px;
+    width: 150px; 
+    height: 250px; 
+    background: #fff; 
+    display: none; 
+    z-index: 10;
+}
+
+.sub a {
+    display: block;  
+    background: #fff; 
+    text-align: center; 
+    padding: 10px 0;
+}
+
+.sub a:hover,
+.sub a:focus {
+    background: #6a5ea6; 
+    color: #fff;
+}
+
+.contents {
+    width: 800px;
+}
+
+.slide {
+    height: 350px;  
+    position: relative; 
+    overflow: hidden;
+}
+
+.slide ul {
+    display: flex;
+    width: 2400px; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+}
+
+.slide ul li {
+    width: 800px; 
+    height: 350px; 
+    text-align: center;
+}
+
+.slide ul li a {
+    display: block;  
+    height: 100%; 
+    padding-top: 100px;
+}
+
+.slide ul li h2 {
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 50px; 
+    color: #fff; 
+    text-shadow: 10px 10px 10px rgba(0,0,0,.8);
+}
+
+.slide ul li p {
+    background: #333; 
+    color: #fff; 
+    font-size: 24px; 
+    padding: 10px; 
+    display: inline-block;
+}
+
+.slide ul li.s1 {
+    background: url(../img/s1.jpg) no-repeat center/cover;
+}
+
+.slide ul li.s2 {
+    background: url(../img/s2.jpg) no-repeat center/cover;
+}
+
+.slide ul li.s3 {
+    background: url(../img/s3.jpg) no-repeat center/cover;
+}
+
+.con {
+    height: 200px; 
+    display: flex;
+}
+
+.notice {
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.notice h2 {
+    display: inline-block; 
+    width: 150px;
+    background: #09c75a; 
+    padding-top: 2px;
+}
+
+.notice table th {
+    text-align: left;
+}
+
+.notice table th a {
+    padding: 5px 0; 
+    display: block; 
+    width: 200px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.notice table tr:nth-child(even) {
+    background: #888;
+}
+
+.gall {
+    background: #fff; 
+    width: 300px; 
+    padding: 10px; 
+    text-align: center;
+}
+
+.gall h2 {
+    display: inline-block; 
+    width: 150px; 
+    background: #6a5ea6; 
+    padding-top: 2px;
+    color: #fff;
+}
+
+.gall ul {
+    display: flex; 
+    padding-top: 15px;
+    gap: 10px;
+}
+
+.gall li img {
+    width: 85px; 
+    height: 110px; 
+    object-fit: cover;
+}
+
+.go {
+    position: relative;
+    width: 200px; 
+    text-align: center; 
+    padding: 10px; 
+    background: #ec775d;
+}
+
+.go h2 {
+    display: inline-block; 
+    width: 150px; 
+    background: #6a5ea6; 
+    padding-top: 2px; 
+    color: #fff;
+}
+
+.go a {
+    position: absolute;
+    width: 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #09c75a; 
+    display: block; 
+    padding: 10px;
+}
+
+.go p {
+    font-size: 22px; 
+    color: #fff;
+}
+
+.go span {
+    font-size: 12px; 
+    letter-spacing: -1px;
+}
+
+footer {
+    height: 100px; 
+    background: #333; 
+    color: #fff; 
+    position: relative; 
+    display: flex; 
+    gap: 10px; 
+    align-items: center;
+    padding-left: 10px;
+}
+
+footer select {
+    position: absolute; 
+    top: 40px; 
+    right: 20px;
+}
+
+footer .copy {
+    font-size: 12px;
+}
+
+.popup {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    z-index: 9999; 
+    background: rgba(0,0,0,.8); 
+    top: 0; 
+    left: 0; 
+    display: none;
+}
+
+.popcon {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 500px; 
+    background: #fff; 
+    padding: 20px; 
+    text-align: center;
+}
+
+.popcon p {
+    padding-top: 10px;
+}
+
+.popcon .button {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.popcon button {
+    padding-top: 10px; 
+    border: 0; 
+    background: #6a5ea6; 
+    color: #fff; 
+    padding: 10px;
+}
