@@ -28,11 +28,11 @@ $(function(){
 
    //메뉴
    $("nav>ul>li").mouseenter(function(){
-    $(this).find('.sub').stop().slideDown();
+        $(this).find('.sub').stop().slideDown();
    })
 
    $("nav>ul>li").mouseleave(function(){
-    $(".sub").stop().slideUp();
+        $(".sub").stop().slideUp();
    })
     
     //웹 접근성 메뉴
