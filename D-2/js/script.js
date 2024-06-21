@@ -1,7 +1,7 @@
 $(function(){
 
     //슬라이드
-    var i = 0
+    let i = 0
 
     function slide(){
         if(i < 2){
@@ -14,7 +14,7 @@ $(function(){
         $('.slide ul').animate({left: -100 * i + "%"},1000)
     }
 
-    setInterval(slide, 3000)
+    setInterval(slide, 2000)
     
     //팝업
     $(".pp").click(function(){
