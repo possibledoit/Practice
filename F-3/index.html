@@ -3,9 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>오픈뱅킹</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-    
+    <div class="wrap">
+        <header>
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="#"><img src="img/logo.png" alt="오픈뱅킹"></a>
+                </h1>
+                <nav id="gnb">
+                    <ul>
+                        <li><a href="#">조회</a>
+                            <ul class="sub">
+                                <li><a href="#">계좌조회</a></li>
+                                <li><a href="#">거래내역조회</a></li>
+                                <li><a href="#">휴면계좌 조회</a></li>
+                                <li><a href="#">수표/이음 조회</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">이체</a>
+                            <ul class="sub">
+                                <li><a href="#">계좌이체</a></li>
+                                <li><a href="#">다계좌이체</a></li>
+                                <li><a href="#">자동이체</a></li>
+                                <li><a href="#">예약이체</a></li>
+                            </ul>
+                        </li># <li><a href="#">공과금</a>
+                            <ul class="sub">
+                                <li><a href="#">지로/생활요금</a></li>
+                                <li><a href="#">지방세</a></li>
+                                <li><a href="#">국세/관세</a></li>
+                                <li><a href="#">벌칙금/벌과금</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">외환</a>
+                            <ul class="sub">
+                                <li><a href="#">금리</a></li>
+                                <li><a href="#">환율/외화예금</a></li>
+                                <li><a href="#">글로벌뱅킹</a></li>
+                                <li><a href="#">외화송금</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bg"></div>
+        </header>
+        <section class="slide">
+            <ul>
+                <li class="s1">
+                    <a href="#">
+                        <h2>모두의 뱅킹 <span>'오픈뱅킹'</span></h2>
+                    </a>
+                </li>
+                <li class="s2">
+                    <a href="#">
+                        <h2>더 쉽고 자주만나는 나만의 뱅킹 <span>'오픈뱅킹'</span></h2>
+                    </a>
+                </li>
+                <li class="s3">
+                    <a href="#">
+                        <h2>믿을 수 있는 뱅킹 <span>'오픈뱅킹'</span></h2>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <div class="container">
+            <article class="link">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h2>
+                                <img src="img/attach_money.png" alt="세이프박스">세이프박스
+                            </h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>
+                                <img src="img/touch_app.png" alt="친구이체">친구이체
+                            </h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>
+                                <img src="img/privacy_tip.png" alt="보안강력">보안강력
+                            </h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>
+                                <img src="img/account_balance.png" alt="고객센터">고객센터
+                            </h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>
+                                <img src="img/fact_check.png" alt="서류제출">서류제출
+                            </h2>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+            <article class="banner">
+                <a href="#">
+                    <p class="imgBox">
+                        <img src="img/banner.jpg" alt="누구나 쉽고 스마트하게 오픈뱅킹과 함께!">
+                    </p>
+                    <div class="txtBox">
+                        <h2>누구나 쉽고 스마트하게 오픈뱅킹과 함께!</h2>
+                        <p class="date">2023-12-13</p>
+                        <p class="txt">통장의 많은 정보가 기능들을 쉽고 편리하게
+                            이용할 수 있도록 디자인했습니다. <br>
+                            간편하게 이체, 거래내역 자세히 보기도 바로바로,
+                            중요한 내용은 놓치지 않고 확인할 수 있습니다.
+                        </p>
+                    </div>
+                    <p class="arrow">
+                        <img src="img/arrow.png" alt="바로가기">
+                    </p>
+                </a>
+            </article>
+            <article class="board">
+                <ul class="tabmenu">
+                    <li class="on">
+                        <h2><a href="#">공지사항</a></h2>
+                        <div class="tabcon notice">
+                            <table>
+                                <tr>
+                                    <th>
+                                        <a href="#" class="pp">
+                                            [한달적금] 한달적금은 만기 자동연장이 안되나요?
+                                        </a>
+                                    </th>
+                                    <td>
+                                        2023-10-13
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <a href="#">
+                                            [신용대출 비교하기] 신용대출 비교하기 서비스는 무엇인가요?
+                                        </a>
+                                    </th>
+                                    <td>
+                                        2023-07-12
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <a href="#">
+                                            [쿠폰 사고팔기] 쿠폰 사고팔기 서비스는 무엇인가요?
+                                        </a>
+                                    </th>
+                                    <td>
+                                        2023-05-20
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <a href="#">
+                                            모르는 돈이 입금되고, 전자금융통신사가 이용계좌로 신고되었어요.
+                                        </a>
+                                    </th>
+                                    <td>
+                                        2023-02-13
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <h2><a href="#">갤러리</a></h2>
+                        <div class="tabcon gall">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <p class="box"><img src="img/g1.jpg" alt="마이너스 통장대출"></p>
+                                        <span>마이너스 통장대출</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="box"><img src="img/g2.jpg" alt="개인사업자 대출"></p>
+                                        <span>개인사업자 대출</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="box"><img src="img/g3.jpg" alt="전월세보종금대출"></p>
+                                        <span>전월세보종금대출</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </div>
+        <footer>
+            <p class="flogo"><img src="img/flogo.png" alt="오픈뱅킹"></p>
+            <div>
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">찾아오시는길</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">고객지원</a></li>
+                    <li><a href="#">제휴문의</a></li>
+                </ul>
+                <p class="copy">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<br>
+                    Copyright 2024. leeminiclass All rights reserved.
+                </p>
+            </div>
+        </footer>
+        <div class="popup">
+            <h2>내가 고르는 선택의 즐거움 '오픈뱅킹카드'</h2>
+            <img src="img/popup.jpg" alt="내가 고르는 선택의 즐거움 '오픈뱅킹카드">
+            <p>내가 고르는 선택의 즐거움 '오픈뱅킹카드'가 출시되었습니다.</p>
+            <p class="close"><button>X 닫기</button></p>
+        </div>
+    </div>
 </body>
 </html>
