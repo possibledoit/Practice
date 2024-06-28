@@ -201,5 +201,79 @@ nav > ul > li > a:focus {
 }
 
 .con2 h2 {
+    background-color: #75531a;
+}
+
+.con2 div {
+    background-color: #75531a;
+    padding: 10px;
+    height: 150px;
+}
+
+.con2 div ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.con2 div ul li img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.con2 div ul li:hover {
+    opacity: 0.7;
+}
+
+.con3 {
+    background-color: #eee;
+    padding: 10px;
+}
+
+.con3 h2 {
+    color: #1a4975;
+    padding-bottom: 20px;
+}
+
+.con3 ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.con3 ul li {
+    text-align: center;
+}
+
+.con3 ul li a {
+    display: block;
+    height: 100%;
+}
+
+.con3 ul li p {
+    width: 80px;
+    height: 80px;
+    background-color: #1a4975;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+footer {
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+footer .fmenu {
+    display: flex;
+    gap: 10px;
+}
+
+footer .fmenu li {
     
 }
