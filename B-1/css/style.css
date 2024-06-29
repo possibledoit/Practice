@@ -34,3 +34,7 @@ body {
     color: #333;
 }
 
+.wrap {
+    position: relative;
+}
+
