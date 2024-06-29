@@ -34,11 +34,3 @@ body {
     color: #333;
 }
 
-.wrap {
-    position: relative;
-}
-
-.inner {
-    width: 1200px;
-    margin: 0 auto;
-}
