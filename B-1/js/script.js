@@ -1,16 +1,22 @@
 $(function() { 
 
-    //슬라이드
-    function slide() {
-        $(".slide ul").animate({left: "-1200px" },1000,function() {
-            $(".slide ul").append($(".slide ul li").first())
-            $(".slide ul").css({left:0})
-        })
+    // 슬라이드
+    let i = 0;
+
+    function slide(){
+         if(i < 2){
+             i++;
+         }
+         else {
+             i = 0;
+         }
+         
+         $(".slide ul").animate({left: 1200 * (-1) * i},1000)
     }
+ 
+    setInterval(slide, 2000)
 
-   setInterval(slide, 2000)
-
-    //탭메뉴
+    // 탭메뉴
     $(".tabmenu>li").click(function() {
         $(".tabmenu>li").removeClass("on")
         $(this).addClass("on")
@@ -21,7 +27,7 @@ $(function() {
         $(".tabcon").eq(t).show();
     })
 
-    //팝업창
+    // 팝업창
     $(".pp").click(function() {
         $(".popup").show();
         return false;
@@ -30,7 +36,7 @@ $(function() {
         $(".popup").hide();
     })
     
-    //메뉴
+    // 메뉴
     $("nav>ul>li").mouseenter(function() {
         $(".sub").stop().slideDown();
     })
@@ -38,7 +44,7 @@ $(function() {
         $(".sub").stop().slideUp();
     })
     
-    //웹 접근성 메뉴
+    // 웹 접근성 메뉴
     $("nav>ul>li").focusin(function() {
         $(this).addClass("on")
         $(".sub").stop().slideDown()

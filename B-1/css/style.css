@@ -109,6 +109,7 @@ nav > ul > li > a:focus{
 }
 
 .slide ul {
+    display: flex;
     width: 3600px;
     position: absolute;
     top: 0;
