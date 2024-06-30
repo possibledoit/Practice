@@ -1,27 +1,17 @@
-$(function(){
-    //슬라이드
-   let i = 0;
+$(function() { 
 
-   function slide(){
-        if(i < 2){
-            i++;
-        }
-        else{
-            i = 0;
-        }
-        
-        $(".slide ul").animate({left: 1200 * (-1) * i},1000,function() {
+    //슬라이드
+    function slide() {
+        $(".slide ul").animate({left: "-1200px" },1000,function() {
             $(".slide ul").append($(".slide ul li").first())
             $(".slide ul").css({left:0})
         })
-   }
+    }
 
    setInterval(slide, 2000)
 
-   
-
     //탭메뉴
-    $(".tabmenu>li").click(function(){
+    $(".tabmenu>li").click(function() {
         $(".tabmenu>li").removeClass("on")
         $(this).addClass("on")
 
@@ -32,32 +22,32 @@ $(function(){
     })
 
     //팝업창
-    $(".pp").click(function(){
+    $(".pp").click(function() {
         $(".popup").show();
         return false;
     })
-    $(".popup button").click(function(){
+    $(".popup button").click(function() {
         $(".popup").hide();
     })
     
     //메뉴
-    $("nav>ul>li").mouseenter(function(){
+    $("nav>ul>li").mouseenter(function() {
         $(".sub").stop().slideDown();
     })
-    $("nav>ul>li").mouseleave(function(){
+    $("nav>ul>li").mouseleave(function() {
         $(".sub").stop().slideUp();
     })
     
     //웹 접근성 메뉴
-    $("nav>ul>li").focusin(function(){
+    $("nav>ul>li").focusin(function() {
         $(this).addClass("on")
         $(".sub").stop().slideDown()
    })
 
-    $(".sub li:last-child a").focusout(function(){
+    $(".sub li:last-child a").focusout(function() {
         $("nav>ul>li").removeClass("on")
    })
-    $("nav li:last-child li:last-child a").focusout(function(){
+    $("nav li:last-child li:last-child a").focusout(function() {
         $(".sub").slideUp()
    })
 })
