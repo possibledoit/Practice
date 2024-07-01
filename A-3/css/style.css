@@ -86,6 +86,7 @@ nav > ul > li > a:focus {
 .sub {
     display: none;
 }
+
 .sub li a {
     background-color: #fff;
     display: block;
