@@ -34,3 +34,275 @@ body {
     color: #333;
 }
 
+.wrap {
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    text-align: left;
+    position: relative;
+}
+
+header {
+    width: 200px;
+    padding: 30px 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #ffc000;
+}
+
+header h1 {
+    padding-bottom: 30px;
+}
+
+header h1 a {
+    display: block;
+    height: 100%;
+}
+
+nav {
+    position: relative;
+}
+
+nav > ul > li > a {
+    display: block;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1;
+    font-weight: bold;
+}
+
+nav > ul > li:hover > a,
+nav > ul > li.on > a,
+nav > ul > li > a:focus {
+    background-color: #fff;
+}
+
+.sub {
+    position: absolute;
+    top: -30px;
+    right: -150px;
+    background-color: #fff;
+    width: 150px;
+    height: 300px;
+    z-index: 10;
+    display: none;
+}
+
+.sub a {
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sub a:hover, 
+.sub a:focus {
+    background-color: #ffc000;
+    color: #fff;
+}
+
+.contents {
+    width: 800px;
+}
+
+.slide {
+    height: 350px;
+    position: relative;
+}
+
+.slide ul li {
+    width: 800px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.slide ul li a {
+    display: block;
+    height: 100%;
+}
+
+.slide ul li.s1 {
+    background: url(../img/s1.jpg) no-repeat center/cover;
+    display: block;
+}
+
+.slide ul li.s2 {
+    background: url(../img/s2.jpg) no-repeat center/cover;
+}
+
+.slide ul li.s3 {
+    background: url(../img/s3.jpg) no-repeat center/cover;
+}
+
+.slide ul li h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, .8);
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.con {
+    height: 200px;
+    display: flex;
+}
+
+article {
+    padding: 10px;
+}
+
+article h2 {
+    background-color: #ffc000;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.notice {
+    width: 300px;
+}
+
+.notice table th {
+    text-align: left;
+    padding-top: 5px;
+}
+
+.notice table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.notice table a {
+    display: block;
+    width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.gall {
+    width: 300px;
+    background-color: #fff;
+}
+
+.gall ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.gall ul li:hover {
+    opacity: 0.5;
+}
+
+.gall ul li a {
+    display: block;
+    width: 85px;
+    height: 125px;
+    overflow: hidden;
+}
+
+.go {
+    width: 200px;
+    position: relative;
+}
+
+.go a {
+    display: block;
+    height: 125px; 
+    background: url(../img/banner.jpg) no-repeat center/cover;
+    position: absolute;
+    top: 62px;
+    width: 180px;
+}
+
+.go div {
+    background-color: rgba(0, 0, 0, .5); 
+    color: #fff; 
+    height: 100%; 
+    text-align: center; 
+    padding-top: 15px;
+}
+
+.go h3 {
+    font-size: 18px; 
+    color: #ffc000; 
+    padding-bottom: 5px;
+}
+
+.go span {
+    font-size: 12px; 
+    letter-spacing: -1px;
+}
+
+footer {
+    height: 100px; 
+    background: #333; 
+    color: #fff; 
+    display: flex; 
+    align-items: center;
+    padding-left: 20px;
+}
+
+footer .flogo {
+    width: 150px; 
+    padding-right: 50px;
+}
+
+footer .fmenu {
+    display: flex; 
+    gap: 10px; 
+    padding-bottom: 10px;
+}
+
+footer .fmenu li {
+    border-right: 1px solid #fff;  
+    padding-right: 10px; 
+    font-size: 14px;
+}
+
+footer .fmenu li:last-child {
+    border-right: 0;
+}
+
+.popup {
+    position: absolute; 
+    width: 500px; 
+    padding: 20px; 
+    background: #fff; 
+    text-align: center; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border-radius: 50px; 
+    z-index: 20; 
+    display: none;
+}
+
+.popup h2 {
+    color: #ffc000; 
+    padding-bottom: 20px;
+}
+
+.popup .close {
+    border: none; 
+    padding: 15px; 
+    background-color: #ffc000; 
+    padding-top: 10px;
+    text-align: right;
+}
