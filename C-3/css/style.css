@@ -109,23 +109,31 @@ nav > ul > li > a:focus {
 
 .slide {
     height: 350px;
+    background-color: #fcc;
+    width: 800px;
     position: relative;
+    overflow: hidden;
 }
 
-.slide ul li {
-    width: 800px;
-    height: 350px;
+.slide ul {
+    display: flex;
+    width: 2400px;
     position: absolute;
     top: 0;
     left: 0;
-    display: none;
+}
+
+.slide ul li {
+    width: 2400px;
+    height: 350px;
+    text-align: left;
+    position: relative;
 }
 
 .slide ul li a {
     display: block;
     height: 100%;
 }
-
 .slide ul li.s1 {
     background: url(../img/s1.jpg) no-repeat center/cover;
     display: block;
