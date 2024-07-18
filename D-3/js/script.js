@@ -39,7 +39,7 @@ $(function() {
 
     // 메뉴
     $("nav>ul>li").mouseenter(function() {
-        $(this).find('.sub').stop().slideDown();
+        $(this).find(".sub").stop().slideDown();
    })
 
    $("nav>ul>li").mouseleave(function() {

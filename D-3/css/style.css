@@ -239,7 +239,7 @@ nav > ul > li > a:focus {
     font-size: 18px;
 }
 
-.tabmenu > li.on > a {
+.tabmenu > li.on > h2 > a {
     background-color: #6d8049;
 }
 
