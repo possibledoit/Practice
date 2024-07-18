@@ -1,0 +1,381 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+.wrap {
+    width: 100%;
+    height: 970px;
+    background-color: #fc6;
+    min-width: 1350px;
+}
+
+.top {
+    height: 850px;
+    background-color: #fcc;
+    display: flex;
+}
+
+header {
+    width: 200px;
+    background-color: #fcfaeb;
+    padding: 100px 0;
+}
+
+header h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+nav {
+    padding: 0 20px;
+}
+
+nav > ul > li {
+    position: relative;
+}
+
+nav > ul > li > a {
+    display: block;
+    background-color: #6d8049;
+    color: #fff;
+    padding: 10px;
+}
+
+nav > ul > li:hover > a,
+nav > ul > li.on > a,
+nav > ul > li > a:focus {
+    background-color: #ae6105;
+}
+
+.sub {
+    position: absolute;
+    top: 0;
+    left: 160px;
+    width: calc(100vw - 200px);
+    z-index: 10;
+    display: none;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.sub li {
+    text-align: left;
+}
+
+.sub li a {
+    display: block;
+    width: 200px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.sub li a:hover,
+.sub li a:focus {
+    background-color: #6d8049;
+    color: #fff;
+}
+
+.spot {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.spot a:first-child {
+    border-right: 1px solid #6d8049;
+    padding-right: 5px;
+}
+
+.contents {
+    width: calc(100% - 200px);
+    background-color: pink;
+    height: 100%;
+}
+
+.slide {
+    height: 400px;
+    position: relative;
+}
+
+.slide ul {
+    height: 1200px;
+}
+
+.slide ul li {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.slide ul li a {
+    display: block;
+    height: 100%;
+}
+
+.slide ul li.s1 {
+    background: url(../img/s1.jpg) no-repeat center bottom/cover;
+    display: block;
+}
+
+.slide ul li.s2 {
+    background: url(../img/s2.jpg) no-repeat center bottom/cover;
+}
+
+.slide ul li.s3 {
+    background: url(../img/s3.jpg) no-repeat center bottom/cover;
+}
+
+.slide ul li .text {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .8);
+    font-family: '나눔명조';
+}
+
+.banner {
+    height: 200px;
+    background-color: #6d8049;
+    padding: 0 50px;
+    position: relative;
+}
+
+.banner a {
+    display: block;
+    height: 100%;
+    display: flex;
+}
+
+.imgBox {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.txtBox {
+    padding-top: 50px;
+    width: calc(100% - 320px);
+}
+
+.txtBox h2 {
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .8);
+    font-size: 30px;
+    font-family: '나눔명조';
+    padding-bottom: 20px;
+}
+
+.txtBox p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.txtBox p span {
+    text-decoration: underline;
+}
+
+.arrow {
+    position: absolute;
+    right: 50px;
+    top: 70px;
+}
+
+.con {
+    height: 250px;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.tabmenu {
+    display: flex;
+}
+
+.tabmenu > li > h2 > a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ae6105;
+    color: #fff;
+    font-size: 18px;
+}
+
+.tabmenu > li.on > a {
+    background-color: #6d8049;
+}
+
+.tabcon {
+    background-color: #6d8049;
+    height: 160px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.notice {
+    padding: 10px 30px;
+}
+
+.notice table th {
+    padding: 5px 0;
+    text-align: left;
+    color: #fff;
+}
+
+.notice table td {
+    text-align: center;
+    color: #fff;
+}
+
+.notice table tr {
+    border-bottom: 1px dashed #fff;
+}
+
+.gall {
+    text-align: center;
+    padding-top: 30px;
+    display: none;
+}
+
+.gall li {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.gall li:first-child {
+    padding-left: 0;
+}
+
+.gall li p {
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.gall li span {
+    color: #fff;
+    display: block;
+}
+
+.quick {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    background-color: #6d8049;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.quick a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px dashed #fff;
+}
+
+.quick a span {
+    display: block;
+    padding-top: 10px;
+}
+
+.quick a:last-child {
+    border-bottom: 0;
+}
+
+footer {
+    height: 120px;
+    background-color: #6d8049;
+    padding-top: 20px;
+    position: relative;
+    padding-left: 250px;
+}
+
+footer .flogo {
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+footer .fmenu li {
+    display: inline-block;
+    padding-right: 20px;
+    color: #fff;
+}
+
+footer .copy {
+    color: #fff;
+    padding-top: 10px;
+}
+
+.popcon {
+    position: fixed;
+    width: 500px;
+    height: 700px;
+    background-color: #ae6105;
+    border-radius: 50px;
+    z-index: 50;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 50px;
+    display: none;
+}
+
+.popcon h2 {
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.popcon button {
+    padding: 20px;
+    border: 0;
+    padding-top: 20px;
+}
+
+.popcon .close {
+    padding-top: 20px;
+    text-align: right;
+}
+
