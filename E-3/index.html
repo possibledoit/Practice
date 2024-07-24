@@ -3,9 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>영상박물관</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-    
+    <div class="wrap">
+        <div class="top">
+            <header>
+                <h1><a href="#"><img src="img/logo.png" alt="영상박물관"></a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">박물관 소개</a>
+                            <ul class="sub">
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">박물관연혁</a></li>
+                                <li><a href="#">박물관 조직도</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">전시</a>
+                            <ul class="sub">
+                                <li><a href="#">전시 리스트</a></li>
+                                <li><a href="#">전시일정</a></li>
+                                <li><a href="#">특별전</a></li>
+                                <li><a href="#">지역작가</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">체험행사</a>
+                            <ul class="sub">
+                                <li><a href="#">문화행사</a></li>
+                                <li><a href="#">진로체험</a></li>
+                                <li><a href="#">명사특강</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">커뮤니티</a>
+                            <ul class="sub">
+                                <li><a href="#">사용자메뉴얼</a></li>
+                                <li><a href="#">박물관 약도</a></li>
+                                <li><a href="#">게시판</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="spot">
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                </p>
+            </header>
+            <div class="contents">
+                <article class="banner">
+                    <a href="#">
+                        <div class="photo"><img src="img/banner.jpg" alt="영상카메라의 역사"></div>
+                        <div class="text">
+                            <h2>영상카메라의 역사</h2>
+                            <p class="date">2032-02-13</p>
+                            <p class="t">여러분들이 궁금해하는 영상카메라 <br>
+                                         역사에 대해 알아봅니다.</p>
+                        </div>
+                        <div class="arrow">
+                            <img src="img/arrow.png" alt="바로가기">
+                        </div>
+                    </a>
+                </article>
+                <article class="notice">
+                    <h2>공지사항</h2>
+                    <table>
+                        <tr>
+                            <th><a href="#" class="pp">박물관에 오신 여러분 환영합니다.</a></th>
+                            <td>2032-02-13</td>
+                        </tr>
+                        <tr>
+                            <th><a href="#">영상박물관 전시회 일정</a></th>
+                            <td>2032-04-29</td>
+                        </tr>
+                        <tr>
+                            <th><a href="#">체험행사가 3월부터 진행</a></th>
+                            <td>2032-03-12</td>
+                        </tr>
+                        <tr>
+                            <th><a href="#">코로나 방역대책</a></th>
+                            <td>2032-01-29</td>
+                        </tr>
+                    </table>
+                </article>
+                <article class="gall">
+                    <h2>갤러리</h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <p class="box">
+                                    <img src="img/g1.jpg" alt="영사기의 역사1">
+                                </p>
+                                <p class="title">
+                                   영사기의 역사1
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="box">
+                                    <img src="img/g2.jpg" alt="영사기의 역사2">
+                                </p>
+                                <p class="title">
+                                   영사기의 역사2
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <div class="slide">
+                <ul>
+                    <li class="s1">
+                        <a href="#">
+                            <div class="text">
+                                <h2>영사기의 역사1</h2>
+                                <p>영사기의 역사가 시작됩니다!</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="s2">
+                        <a href="#">
+                            <div class="text">
+                                <h2>필름 영사기부터 LED 영화관까지</h2>
+                                <p>상상에 도전을 하다.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="s3">
+                        <a href="#">
+                            <div class="text">
+                                <h2>영화 속 상영 기술</h2>
+                                <p>&lt;&lt;마이너리티 리포트&gt;&gt;에서 &lt;&lt;어바웃 타임&gt;&gt;까지</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p class="flogo"><img src="img/flogo.png" alt="영상박물관"></p>
+            <ul>
+                <li><a href="#"><img src="img/sns1.png" alt="네이버 블로그"></a></li>
+                <li><a href="#"><img src="img/sns2.png" alt="페이스북"></a></li>
+                <li><a href="#"><img src="img/sns3.png" alt="유튜브"></a></li>
+            </ul>
+            <p class="copy">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <br>
+                Copyright 2024. leeminiclass All rights reserved.
+            </p>
+        </footer>
+        <div class="popcon">
+            <h2>영상 박물관 체험행사!</h2>
+            <p><img src="img/popup.jpg" alt="팝업의 이미지"> <br>
+                영상 박물관 체험행사가 3월부터 진행됩니다.</p>
+            <p class="close"><button>X 닫기</button></p>
+        </div>
+    </div>
 </body>
 </html>
