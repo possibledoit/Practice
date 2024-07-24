@@ -108,6 +108,7 @@ nav > ul > li > a:focus {
 
 .con1 table tr {
     border-bottom: 1px solid #333;
+    text-align: left;
 }
 
 .con1 table tr:nth-child(even) {
