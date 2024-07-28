@@ -248,7 +248,7 @@ nav > ul > li > a:focus {
     height: 160px;
     position: absolute;
     left: 0;
-    width: 100%;
+    width: 95%;
 }
 
 .notice {
@@ -314,7 +314,7 @@ nav > ul > li > a:focus {
     border-bottom: 1px dashed #fff;
 }
 
-.quick a span {
+.quick a p {
     display: block;
     padding-top: 10px;
 }

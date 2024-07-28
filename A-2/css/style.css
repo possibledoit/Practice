@@ -174,11 +174,11 @@ nav > ul > li.on > a {
     width: 400px;
 }
 
-.con1 {
+.notice {
     padding: 10px;
 }
 
-.con1 h2 {
+.notice h2 {
     background-color: #008b00;
     width: 120px;
     padding: 5px 0;
@@ -188,15 +188,15 @@ nav > ul > li.on > a {
     padding-bottom: 10px;
 }
 
-.con1 table th {
+.notice table th {
     text-align: left;
 }
 
-.con1 table tr {
+.notice table tr {
     border-bottom: 1px dashed #333;
 }
 
-.con1 table a {
+.notice table a {
     padding: 5px;
     display: block;
     width: 250px;
@@ -206,11 +206,11 @@ nav > ul > li.on > a {
     text-overflow: ellipsis;
 }
 
-.con2 {
+.gall {
     padding: 10px;
 }
 
-.con2 h2 {
+.gall h2 {
     background-color: #008b00;
     width: 120px;
     padding: 5px 0;
@@ -220,13 +220,13 @@ nav > ul > li.on > a {
     padding-bottom: 10px;
 }
 
-.con2 ul {
+.gall ul {
     display: flex;
     gap: 10px;
     padding-top: 30px;
 }
 
-.con2 ul li a {
+.gall ul li a {
     display: block;
     height: 100%;
     width: 120px;
@@ -234,11 +234,11 @@ nav > ul > li.on > a {
     overflow: hidden;
 }
 
-.con3 {
+.banner {
     padding: 10px;
 }
 
-.con3 a {
+.banner a {
     display: block;
     background: url(../img/banner.jpg) center/cover;
     border-radius: 30px;
@@ -247,18 +247,18 @@ nav > ul > li.on > a {
     overflow: hidden;
 }
 
-.con3 div {
+.banner div {
     height: 100%;
     padding-top: 40px;
 }
 
-.con3 h2 {
+.banner h2 {
     font-size: 25px;
     text-shadow: 2px 2px 7px rgba(0, 0, 0, .8);
     color: #fff;
 }
 
-.con3 p.title {
+.banner p.title {
     background-color: #333;
     text-align: center;
     color: #fff;
@@ -266,7 +266,7 @@ nav > ul > li.on > a {
     font-size: 13px;
 }
 
-.con3 p.text {
+.banner p.text {
     color: #333;
     font-size: 14px;
     font-weight: bold;

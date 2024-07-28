@@ -166,35 +166,36 @@ nav > ul > li > a:focus{
     width: 400px;
 }
 
-.con1 {
+.con {
     position: relative;
 }
 
-.con1 .tabmenu > li {
+.con .tabmenu > li {
     width: 150px;
     display: inline-block;
     background-color: #d6edfd;
 }
 
-.con1 .tabmenu > li > h2 > a {
+.con .tabmenu > li > h2 > a {
     display: block;
     text-align: center;
     padding: 5px 0;
     font-weight: bold;
 }
 
-.con1 .tabmenu li.on {
+.con .tabmenu li.on {
     background-color: #0066ad;
     color: #fff;
 }
 
-.con1 .tabcon {
+.con .tabcon {
     position: absolute;
     width: 100%;
     left: 0;
+    bottom: 0;
     background-color: #0066ad;
     padding: 10px;
-    height: 150px;
+    height: 140px;
 }
 
 .notice table th {
@@ -236,16 +237,17 @@ nav > ul > li > a:focus{
     height: 70px;
 }
 
-.con2 {
+.banner {
     padding: 10px;
+    padding-left: 50px;
 }
 
-.con2 > h2 {
+.banner > h2 {
     color: #0066ad;
     padding-bottom: 10px;
 }
 
-.con2 a {
+.banner a {
     display: block;
     height: 130px;
     background: url(../img/banner.jpg) no-repeat center/cover;
@@ -254,67 +256,67 @@ nav > ul > li > a:focus{
     color: #fff;
 }
 
-.con2 div {
+.banner div {
     height: 100%;
     padding: 20px;
     color: rgba(0, 112, 190, .5);
 }
 
-.con2 div h2 {
+.banner div h2 {
     padding-bottom: 10px;
     color: #ff0;
 }
 
-.con2 div h2 span {
+.banner div h2 span {
     font-weight: 300;
 }
 
-.con2 p {
+.banner p {
     text-align: center;
     color: #fff;
     display: inline-block;
 }
 
-.con3 {
+.go {
     padding: 10px;
 }
 
-.con3 > h2 {
+.go > h2 {
     color: #0066ad;
     padding-bottom: 10px;
 }
 
-.con3 ul li:first-child {
+.go ul li:first-child {
     padding-left: 0;
 }
 
-.con3 ul {
+.go ul {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
 
-.con3 ul li {
+.go ul li {
     text-align: center;
 }
 
-.con3 ul li a {
+.go ul li a {
     display: block;
     height: 100%;
 }
 
-.con3 ul li p {
-    width: 80px;
-    height: 80px;
+.go ul li p {
+    width: 100px;
+    height: 120px;
+    text-align: center;
+    line-height: 70px;
     background-color: #0066ad;
     padding-top: 20px;
     border-radius: 20px;
-}
-
-.con3 ul li span {
-    padding-top: 10px;
     font-weight: bold;
+    color: #fff;
     display: block;
+    justify-content: space-evenly;
 }
 
 footer {

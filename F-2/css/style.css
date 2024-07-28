@@ -314,7 +314,8 @@ footer {
     margin: 0 auto;
     position: relative;
     padding-left: 20px;
-    padding-top: 40px;;
+    padding-top: 40px;
+    position: relative;
 }
 
 footer div {
@@ -330,12 +331,13 @@ footer .sns {
 }
 
 footer .sns a {
-    width: 30px;
+    width: 100px;
     height: 30px;
     display: block;
-    border-radius: 50%;
     text-align: center;
-    padding-top: 9px;
+    padding-top: 10px;
+    color: #fff;
+    font-weight: bold;
 }
 
 footer .sns li:nth-child(1) a {
@@ -351,7 +353,9 @@ footer .sns li:nth-child(3) a {
 }
 
 footer select {
+    position: absolute;
     padding-top: 10px;
+    left: 210px;
 }
 
 footer .copy {

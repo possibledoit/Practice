@@ -169,29 +169,29 @@ nav > ul > li > a:focus {
     font-size: 20px;
 }
 
-.con1 h2 {
+.notice h2 {
     background-color: #1a4975;
 }
 
-.con1 div {
+.notice div {
     background-color: #1a4975;
     padding: 10px;
     height: 150px;
 }
 
-.con1 table {
+.notice table {
     color: #fff;
 }
 
-.con1 table th {
+.notice table th {
     text-align: left;
 }
 
-.con1 table tr {
+.notice table tr {
     border-bottom: 1px dashed #fff;
 }
 
-.con1 table a {
+.notice table a {
     width: 250px;
     padding: 5px;
     display: block;
@@ -200,64 +200,67 @@ nav > ul > li > a:focus {
     white-space: nowrap;
 }
 
-.con2 h2 {
+.gall h2 {
     background-color: #75531a;
 }
 
-.con2 div {
+.gall div {
     background-color: #75531a;
     padding: 10px;
     height: 150px;
 }
 
-.con2 div ul {
+.gall div ul {
     display: flex;
     justify-content: space-around;
 }
 
-.con2 div ul li img {
+.gall div ul li img {
     width: 120px;
     height: 120px;
     object-fit: cover;
 }
 
-.con2 div ul li:hover {
+.gall div ul li:hover {
     opacity: 0.7;
 }
 
-.con3 {
+.go {
     background-color: #eee;
     padding: 10px;
 }
 
-.con3 h2 {
+.go h2 {
     color: #1a4975;
     padding-bottom: 20px;
 }
 
-.con3 ul {
+.go ul {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.con3 ul li {
+.go ul li {
     text-align: center;
 }
 
-.con3 ul li a {
+.go ul li a {
     display: block;
     height: 100%;
 }
 
-.con3 ul li p {
-    width: 80px;
-    height: 80px;
+.go ul li p {
+    width: 100px;
+    height: 90px;
     background-color: #1a4975;
     text-align: center;
+    line-height: 50px;
     padding-top: 20px;
     border-radius: 20px;
     padding-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
 }
 
 footer {

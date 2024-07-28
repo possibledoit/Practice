@@ -152,66 +152,66 @@ nav > ul > li > a:focus {
     padding: 5px;
 }
 
-.con1 {
+.contents {
     position: relative;
 }
 
-.con1 .tabmenu {
+.contents .tabmenu {
     display: flex;
 }
 
-.con1 .tabmenu > li {
+.contents .tabmenu > li {
     background-color: #333;
     color: #fff;
     padding: 5px 10px;
     border-radius: 10px 10px 0 0;
 }
 
-.con1 .tabmenu > li > h2 {
+.contents .tabmenu > li > h2 {
     font-size: 18px;
 }
 
-.con1 .tabmenu > li.on {
+.contents .tabmenu > li.on {
     background-color: #0000d5;
 }
 
-.con1 .tabcon {
+.contents .tabcon {
     position: absolute;
     left: 5px;
     top: 36px;
 }
 
-.con1 .notice table {
+.contents .notice table {
     border-top: 3px solid #0000d5;
 }
 
-.con1 .notice table tr {
+.contents .notice table tr {
     border-bottom: 1px solid #f7f7f4;
 }
 
-.con1 .notice table th {
+.contents .notice table th {
     text-align: left;
 }
 
-.con1 .notice table th a {
+.contents .notice table th a {
     padding: 7px;
     display: block;
-    width: 180px;
+    width: 160px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     color: #333;
 }
 
-.con1 .notice table td {
+.contents .notice table td {
     color: #333;
 }
 
-.con1 .gall {
+.contents .gall {
     display: none;
 }
 
-.con1 .gall ul {
+.contents .gall ul {
     border-top: 3px solid #0000d5;
     padding-top: 40px;
     display: flex;
@@ -219,27 +219,27 @@ nav > ul > li > a:focus {
     justify-content: center;
 }
 
-.con1 .gall ul li {
+.contents .gall ul li {
     width: 80px;
 }
 
-.con1 .gall ul li a {
+.contents .gall ul li a {
     display: block;
     height: 50px;
     overflow: hidden;
 }
 
-.con2 {
+.banner {
     padding: 10px;
 }
 
-.con2 > h2 {
+.banner > h2 {
     color: #0000d5;
     font-size: 20px;
     padding-bottom: 10px;
 }
 
-.con2 a{
+.banner a{
     display: block;
     height: 130px;
     background: url(../img/banner.jpg) center/cover;
@@ -248,65 +248,63 @@ nav > ul > li > a:focus {
     color: #fff;
 }
 
-.con2 div {
+.banner div {
     height: 100%;
     padding: 20px;
     background-color: rgba(0, 112, 190, .5);
     text-align: center;
 }
 
-.con2 div h2 {
+.banner div h2 {
     padding-bottom: 10px;
     color: #ff0;
 }
 
-.con2 p {
+.banner p {
     text-align: center;
     color: #fff;
     display: inline-block;
     letter-spacing: -2px;
 }
 
-.con3 {
+.go {
     padding: 10px;
 }
 
-.con3 > h2 {
+.go > h2 {
     color: #0000d5;
     font-size: 20px;
     padding-bottom: 10px;
 }
 
-.con3 ul {
-    padding-top: 25px;
+.go ul {
+    padding-top: 15px;
     text-align: center;
     display: flex;
     gap: 10px;
     justify-content: center;
 }
 
-.con3 ul li {
+.go ul li {
     text-align: center;
 }
 
-.con3 ul li a {
+.go ul li a {
     display: block;
     height: 100%;
 }
 
-.con3 ul li span {
+.go ul li p {
     display: block;
     width: 70px;
-    height: 70px;
+    height: 100px;
     border-radius: 20px;
     background-color: #0000d5;
     text-align: center;
+    line-height: 60px;
     padding-top: 15px;
-}
-
-.con3 ul li p {
-    padding-top: 5px;
     font-weight: bold;
+    color: #fff;
 }
 
 footer {

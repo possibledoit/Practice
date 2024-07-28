@@ -220,31 +220,20 @@ nav > ul > li > a:focus {
     justify-content: center;
 }
 
-.go ul li span {
-    display: block;
-    width: 80px;
-    height: 80px;
-    border-radius: 20px;
-    background-color: #b28fca;
-    text-align: center;
-    padding-top: 10px;
-    position: relative;
-}
-
-.go ul li span img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
 .go ul li p {
     font-size: 15px;
     font-weight: bold;
     text-align: center;
+    line-height: 65px;
     padding-top: 5px;
-    color: #b28fca;
+    color: #fff;
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #b28fca;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .go ul li a {
@@ -275,20 +264,20 @@ footer .fsns {
 
 footer .fsns li a {
     display: block;
-    width: 30px;
+    width: 100px;
     height: 30px;
     background-color: #fff;
-    border-radius: 50%;
     text-align: center;
-    padding-top: 9px;
+    padding-top: 10px;
+    font-weight: bold;
 }
 
 footer .fsns li:first-child a {
-    background-color: #47b749;
+    background-color: #3c5b9a;
 }
 
 footer .fsns li:nth-child(2) a {
-    background-color: #3c5b9a;
+    background-color: #47b749;
 }
 
 footer .fsns li:nth-child(3) a {
@@ -298,10 +287,13 @@ footer .fsns li:nth-child(3) a {
 footer select {
    position: absolute;
    top: 50px;
+   left: 195px;
 }
 
 footer .copy {
-    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 11px;
 }
 
 .popup {

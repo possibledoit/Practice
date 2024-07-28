@@ -275,12 +275,12 @@ footer .sns {
 
 footer .sns li a {
     display: block;
-    width: 30px;
+    width: 100px;
     height: 30px;
     background-color: #fff;
-    border-radius: 50%;
     text-align: center;
     padding-top: 10px;
+    font-weight: bold;
 }
 
 footer .sns li:nth-child(1) a {

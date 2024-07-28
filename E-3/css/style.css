@@ -319,20 +319,20 @@ footer ul {
 
 footer ul li a {
     display: block; 
-    width: 30px; 
+    width: 100px; 
     height: 30px; 
-    border-radius: 50%; 
     background: #fff; 
     text-align: center; 
     padding-top: 10px;
+    font-weight: bold;
 }
 
 footer ul li:first-child a {
-    background: #47b749;
+    background: #3c5b9a;
 }
 
 footer ul li:nth-child(2) a {
-    background: #3c5b9a;
+    background: #47b749;
 }
 
 footer ul li:nth-child(3) a {
