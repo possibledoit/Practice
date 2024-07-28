@@ -15,7 +15,7 @@ $(function() {
         $(".slide ul li").eq(i).fadeIn();
     }
 
-    setInterval(slide, 2000)
+    setInterval(slide, 3000)
 
     // 메뉴
     $("nav>ul>li").mouseenter(function() {

@@ -14,7 +14,7 @@ $(function() {
         $(".slide ul li").fadeOut();
         $(".slide ul li").eq(i).fadeIn();
     }
-    setInterval(slide, 2000)
+    setInterval(slide, 3000)
 
     // 키보드이벤트
     $("nav>ul>li").focusin(function() {

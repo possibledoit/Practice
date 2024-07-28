@@ -7,7 +7,7 @@ $(function() {
             $(".slide ul").css({top:0})
         })
     }
-    setInterval(slide, 2000)
+    setInterval(slide, 3000)
     
     // 메뉴
     $("nav>ul>li").mouseenter(function() {

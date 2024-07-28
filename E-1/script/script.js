@@ -7,7 +7,7 @@ $(function() {
             $(".slide ul").css({left:0})
         })
     }
-    setInterval(slide, 2000)
+    setInterval(slide, 3000)
 
     // 메뉴 키보드이벤트
     $("nav>ul>li").focusin(function() {

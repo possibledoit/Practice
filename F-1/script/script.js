@@ -14,7 +14,7 @@ $(function() {
         $(".slide ul li").eq(n).fadeIn();
      }
 
-     setInterval(slide, 2000)
+     setInterval(slide, 3000)
 
       // 탭메뉴
       $(".tabmenu > li").click(function() {

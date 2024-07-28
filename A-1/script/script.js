@@ -7,7 +7,7 @@ $(function() {
             $(".slide ul").css({top:0})
         })
     }
-    setInterval(slide, 2000)
+    setInterval(slide, 3000)
 
     // 탭메뉴
     $(".tabmenu>li").click(function() {

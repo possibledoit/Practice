@@ -13,7 +13,7 @@ $(function() {
 
         $(".slide ul").animate({left: -100 * i + "%"},1000)
     }
-    setInterval(slide, 2000)
+    setInterval(slide, 3000)
 
     // 팝업창
     $(".pp").click(function() {

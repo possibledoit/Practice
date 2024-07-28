@@ -14,7 +14,7 @@ $(function() {
          $(".slide ul").animate({top: 300 * (-1) * i},1000)
     }
  
-    setInterval(slide, 2000)
+    setInterval(slide, 3000)
 
     // 팝업
     $(".pp").click(function() {

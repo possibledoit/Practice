@@ -14,7 +14,7 @@ $(function() {
          $(".slide ul").animate({left: 1200 * (-1) * i},1000)
     }
  
-    setInterval(slide, 2000)
+    setInterval(slide, 3000)
 
     // 탭메뉴
     $(".tabmenu>li").click(function() {

@@ -24,7 +24,7 @@ $(function() {
         $(".slide ul li").fadeOut();
         $(".slide ul li").eq(i).fadeIn();
     }
-    setInterval(slide, 2000)
+    setInterval(slide, 3000)
 
     // 팝업창
     $(".pp").click(function() {
