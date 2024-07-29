@@ -88,7 +88,7 @@ nav > ul > li > a:focus {
     background-color: #f03;
 }
 
-.con1 {
+.con {
     height: 400px;
     background-color: #369;
     display: flex;
@@ -205,18 +205,18 @@ nav > ul > li > a:focus {
     border-radius: 50px;
 }
 
-.con2 {
+.tabcon {
     height: 250px;
     background-color: #ccc;
     display: flex;
 }
 
-.con2 article {
+.tabcon article {
     width: 50%;
     padding: 10px 30px;
 }
 
-.con2 article h2 {
+.tabcon article h2 {
     width: 180px;
     padding: 10px 0;
     text-align: center;
@@ -226,42 +226,42 @@ nav > ul > li > a:focus {
     border-radius: 20px 20px 0 0;
 }
 
-.con2 table {
+.tabcon table {
     border-top: 3px solid #007ba0;
 }
 
-.con2 table th {
+.tabcon table th {
     text-align: left;
     padding: 10px;
 }
 
-.con2 table tr:nth-child(odd) {
+.tabcon table tr:nth-child(odd) {
     background-color: #fff;
 }
 
-.con2 .gall ul {
+.tabcon .gall ul {
     border-top: 3px solid #007ba0;
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
 }
 
-.con2 .gall ul .img {
+.tabcon .gall ul .img {
     height: 100px;
     overflow: hidden;
     padding-bottom: 5px;
 }
 
-.con2 .gall ul li {
+.tabcon .gall ul li {
     flex-basis: 200px;
 }
 
-.con2 .gall ul li a {
+.tabcon .gall ul li a {
     display: block;
     height: 100%;
 }
 
-.con2 .gall ul span {
+.tabcon .gall ul span {
     display: block;
     text-align: center;
     font-weight: bold;
@@ -290,7 +290,7 @@ footer select {
 }
 
 .popup {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;

@@ -331,7 +331,7 @@ footer .fcopy {
 
 .popup {
     width: 500px;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -339,6 +339,7 @@ footer .fcopy {
     text-align: center;
     z-index: 9999;
     padding: 20px;
+    border: 3px solid #333;
     display: none;
 }
 

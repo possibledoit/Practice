@@ -299,7 +299,7 @@ footer .fcopy {
 }
 
 .popup {
-    position: absolute;
+    position: fixed;
     width: 500px;
     top: 50%;
     left: 50%;
@@ -310,6 +310,7 @@ footer .fcopy {
     border: 2px solid #1a4975;
     border-radius: 20px;
     z-index: 9999;
+    border: 3px solid #333;
     display: none;
 }
 

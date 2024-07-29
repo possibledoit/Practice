@@ -288,7 +288,7 @@ footer .fmenu li:last-child {
 }
 
 .popup {
-    position: absolute; 
+    position: fixed;
     width: 500px; 
     padding: 20px; 
     background: #fff; 
@@ -297,7 +297,8 @@ footer .fmenu li:last-child {
     left: 50%; 
     transform: translate(-50%, -50%); 
     border-radius: 50px; 
-    z-index: 20; 
+    z-index: 20;
+    border: 3px solid #333;
     display: none;
 }
 

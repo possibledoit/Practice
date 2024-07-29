@@ -341,11 +341,11 @@ footer .sns a {
 }
 
 footer .sns li:nth-child(1) a {
-    background-color: #47b749;
+    background-color: #3c5b9a;
 }
 
 footer .sns li:nth-child(2) a {
-    background-color: #3c5b9a;
+    background-color: #47b749;
 }
 
 footer .sns li:nth-child(3) a {
@@ -363,13 +363,14 @@ footer .copy {
 }
 
 .popup {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
     z-index: 9999;
+    border: 3px solid #333;
     display: none;
 }
 

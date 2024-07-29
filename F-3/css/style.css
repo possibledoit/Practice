@@ -275,10 +275,6 @@ nav > ul > li > a:focus {
     height: 200px;
 }
 
-.notice {
-    padding: 20px;
-}
-
 .notice table {
     color: #fff;
 }
@@ -364,14 +360,14 @@ footer ul li:last-child{
 }
 
 .popup {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
-    height: 600px;
     text-align: center;
     z-index: 9999;
+    border: 3px solid #333;
     background-color: #fff;
     padding: 20px;
     border-radius: 20px;

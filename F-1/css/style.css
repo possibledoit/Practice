@@ -136,7 +136,7 @@ nav > ul > li > a:focus {
 
 .container {
     width: 1340px;
-    margin: o auto;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -249,7 +249,6 @@ nav > ul > li > a:focus {
 }
 
 .notice {
-    padding: 20px;
     color: #fff;
 }
 
@@ -326,7 +325,7 @@ footer .copy {
 }
 
 .popup {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -336,6 +335,7 @@ footer .copy {
     background-color: #fff;
     border-radius: 20px;
     z-index: 9999;
+    border: 3px solid #333;
     display: none;
 }
 
