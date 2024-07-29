@@ -96,45 +96,45 @@ nav > ul > li.on > a {
     background-color: #f3e2d2;
 }
 
-.slide {
+.slides {
     height: 300px;
     background-color: #fc6;
     position: relative;
     overflow: hidden;
 }
 
-.slide ul {
+.slides ul {
     position: absolute;
     top: 0;
     left: 0;
     height: 900px;
 }
 
-.slide ul li {
+.slides ul li {
     width: 1200px;
     height: 300px;
     position: relative;
 }
 
-.slide ul li a {
+.slides ul li a {
     display: block;
     height: 100%;
 }
 
-.slide ul li.s1 {
+.slides ul li.s1 {
     background: url(../img/s1.jpg) no-repeat center/cover;
     display: block;
 }
 
-.slide ul li.s2 {
+.slides ul li.s2 {
     background: url(../img/s2.jpg) no-repeat center/cover;
 }
 
-.slide ul li.s3 {
+.slides ul li.s3 {
     background: url(../img/s3.jpg) no-repeat center/cover;
 }
 
-.slide ul li h2 {
+.slides ul li h2 {
     background-color: #ceb398;
     position: absolute;
     top: 50%;
