@@ -34,44 +34,6 @@ body {
     color: #333;
 }
 
-.popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-    padding: 20px;
-    background-color: #fff;
-    z-index: 9999;
-    text-align: center;
-    border: 3px solid #333;
-    display: none;
-}
-
-.popup h2 {
-    padding-bottom: 20px;
-    color: #ceb398;
-}
-
-.popup .text {
-    padding: 20px 0;
-}
-
-.popup .close {
-    text-align: right;
-}
-
-.popup button {
-    border: 0;
-    padding: 20px;
-    background-color: #ceb398;
-    color: #fff;
-}
-
-.popup button:hover {
-    background-color: #212121;
-}
-
 .wrap {
     position: relative;
 }
@@ -182,3 +144,225 @@ nav > ul > li.on > a {
     background: url(../img/s3.jpg) no-repeat center/cover;
 }
 
+.con {
+    height: 200px;
+    display: flex;
+}
+
+.con article {
+    width: 400px;
+}
+
+.con article:nth-child(2) {
+    background-color: #fff;
+}
+
+.contents {
+    position: relative;
+}
+
+.contents .tabmenu {
+    display: flex;
+}
+
+.contents .tabmenu > li {
+    width: 150px;
+    background-color: #f3e2d3;
+}
+
+.contents .tabmenu > li.on {
+    background-color: #ceb398;
+    color: #fff;
+}
+
+.contents .tabmenu > li > h2 > a {
+   display: block;
+   text-align: center;
+   font-weight: bold;
+   padding: 10px 0;
+   font-size: 20px;
+}
+
+.contents .tabcon {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #ceb398;
+    height: 150px;
+}
+
+.notice {
+    padding-top: 10px;
+}
+
+.notice th {
+    text-align: left;
+    color: #fff;
+}
+
+.notice td {
+    color: #fff;
+}
+
+.notice tr {
+    border: 1px dashed #fff;
+    border-top: 0;
+}
+
+.notice a {
+    padding: 5px;
+    width: 250px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.gall {
+    padding-top: 30px;
+    display: none;
+}
+
+.gall ul {
+    display: flex;
+    gap: 10px;
+}
+
+.banner {
+    padding: 10px;
+}
+
+.banner a {
+    display: block;
+    height: 100%;
+    background: url(../img/s1.jpg) no-repeat center/cover;
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.banner div {
+    background-color: rgba(206, 179, 152, .8);
+    height: 100%;
+    padding-top: 30px;
+}
+
+.banner p {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    padding-top: 2px;
+}
+
+.go {
+    padding: 10px;
+}
+
+.go h2 {
+    color: #ceb398;
+    padding-bottom: 20px;
+}
+
+.go ul {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.go ul li a {
+    display: block;
+    height: 100%;
+}
+
+.go ul li p {
+    width: 120px;
+    height: 110px;
+    background-color: #ceb398;
+    padding-top: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    display: block;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+}
+
+footer {
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    padding-top: 25px;
+    padding-left: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.fsns {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.fsns li a {
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.fsns li:nth-child(1) a {
+    background-color: #3f5b9a;
+}
+
+.fsns li:nth-child(2) a {
+    background-color: #47b749;
+}
+
+.fsns li:nth-child(3) a {
+    background-color: red;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    z-index: 9999;
+    text-align: center;
+    border: 3px solid #333;
+    display: none;
+}
+
+.popup h2 {
+    padding-bottom: 20px;
+    color: #ceb398;
+}
+
+.popup .text {
+    padding: 20px 0;
+}
+
+.popup .close {
+    text-align: right;
+}
+
+.popup button {
+    border: 0;
+    padding: 20px;
+    background-color: #ceb398;
+    color: #fff;
+}
+
+.popup button:hover {
+    background-color: #212121;
+}
