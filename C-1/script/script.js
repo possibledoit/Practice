@@ -44,13 +44,16 @@ $(function() {
     })
 
     // 웹 접근성 메뉴
-    $("nav>ul>li>a").focusin(function() {
-        $(this).parent().addClass("on")
-        $(this).next(".sub").slideDown()
+    $("nav>ul>li").focusin(function() {
+        $(".sub").slideDown()
+        $(this).addClass("on")
     })
 
     $(".sub li:last-child").focusout(function() {
         $("nav>ul>li").removeClass("on")
+    })
+
+    $("nav li:last-child li:last-child").focusout(function() {
         $(".sub").slideUp()
     })
 })
