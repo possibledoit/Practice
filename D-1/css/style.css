@@ -233,6 +233,11 @@ nav > ul > li.on > a {
     font-size: 20px;
 }
 
+.tabmenu > li.on {
+    background-color: #8e5b12;
+    color: #fff;
+}
+
 .tabcon {
     position: absolute;
     width: 100%;
