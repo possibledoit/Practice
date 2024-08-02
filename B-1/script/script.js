@@ -1,19 +1,12 @@
 $(function() { 
 
     // 슬라이드
-    let i = 0;
-
-    function slide(){
-         if(i < 2){
-             i++;
-         }
-         else {
-             i = 0;
-         }
-         
-         $(".slide ul").animate({left: 1200 * (-1) * i},1000)
+    function slide() {
+        $(".slide ul").animate({left:"-1200px"},1000,function() {
+            $(".slide ul").append($(".slide ul li").first())
+            $(".slide ul").css({left:0})
+        })
     }
- 
     setInterval(slide, 3000)
 
     // 탭메뉴
