@@ -37,12 +37,16 @@ $(function() {
        })
 
         // 웹 접근성 메뉴
-        $("nav > ul > li").focusin(function() {
+        $("nav>ul>li").focusin(function() {
+            $(".sub").slideDown()
             $(this).addClass("on")
-            $(this).find(".sub").slideDown()
         })
+    
         $(".sub li:last-child").focusout(function() {
-            $("nav > ul > li").removeClass("on")
+            $("nav>ul>li").removeClass("on")
+        })
+    
+        $("nav li:last-child li:last-child").focusout(function() {
             $(".sub").slideUp()
         })
 
