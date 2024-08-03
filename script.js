@@ -66,7 +66,7 @@ $(function() {
         $(".popup").show()
         return false
     })
-    $(".pp").click(function() {
+    $(".close").click(function() {
         $(".popup").hide()
     })
 })
