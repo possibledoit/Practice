@@ -31,8 +31,8 @@ $(function() {
     $(".pp").click(function() {
         $(".popup").show();
         return false;
-    })
+    });
     $(".close").click(function() {
         $(".popup").hide();
-    })
+    });
 })
